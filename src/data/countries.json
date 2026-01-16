@@ -1,0 +1,302 @@
+[
+  {
+    "name": "United States",
+    "flag": "🇺🇸",
+    "iso": "US",
+    "population": 331900000,
+    "gdp": 25460,
+    "area": 9833517,
+    "capital": "Washington, D.C.",
+    "region": "North America"
+  },
+  {
+    "name": "China",
+    "flag": "🇨🇳",
+    "iso": "CN",
+    "population": 1412000000,
+    "gdp": 17960,
+    "area": 9596961,
+    "capital": "Beijing",
+    "region": "Asia"
+  },
+  {
+    "name": "India",
+    "flag": "🇮🇳",
+    "iso": "IN",
+    "population": 1408000000,
+    "gdp": 3390,
+    "area": 3287263,
+    "capital": "New Delhi",
+    "region": "Asia"
+  },
+  {
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "iso": "BR",
+    "population": 215300000,
+    "gdp": 1920,
+    "area": 8515767,
+    "capital": "Brasília",
+    "region": "South America"
+  },
+  {
+    "name": "Russia",
+    "flag": "🇷🇺",
+    "iso": "RU",
+    "population": 144100000,
+    "gdp": 2240,
+    "area": 17098242,
+    "capital": "Moscow",
+    "region": "Europe/Asia"
+  },
+  {
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "iso": "JP",
+    "population": 125800000,
+    "gdp": 4230,
+    "area": 377975,
+    "capital": "Tokyo",
+    "region": "Asia"
+  },
+  {
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "iso": "DE",
+    "population": 83200000,
+    "gdp": 4080,
+    "area": 357114,
+    "capital": "Berlin",
+    "region": "Europe"
+  },
+  {
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "iso": "GB",
+    "population": 67500000,
+    "gdp": 3070,
+    "area": 242495,
+    "capital": "London",
+    "region": "Europe"
+  },
+  {
+    "name": "France",
+    "flag": "🇫🇷",
+    "iso": "FR",
+    "population": 67750000,
+    "gdp": 2780,
+    "area": 643801,
+    "capital": "Paris",
+    "region": "Europe"
+  },
+  {
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "iso": "IT",
+    "population": 59110000,
+    "gdp": 2010,
+    "area": 301340,
+    "capital": "Rome",
+    "region": "Europe"
+  },
+  {
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "iso": "CA",
+    "population": 38250000,
+    "gdp": 2140,
+    "area": 9984670,
+    "capital": "Ottawa",
+    "region": "North America"
+  },
+  {
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "iso": "AU",
+    "population": 25690000,
+    "gdp": 1680,
+    "area": 7692024,
+    "capital": "Canberra",
+    "region": "Oceania"
+  },
+  {
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "iso": "KR",
+    "population": 51740000,
+    "gdp": 1670,
+    "area": 100210,
+    "capital": "Seoul",
+    "region": "Asia"
+  },
+  {
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "iso": "ES",
+    "population": 47350000,
+    "gdp": 1390,
+    "area": 505992,
+    "capital": "Madrid",
+    "region": "Europe"
+  },
+  {
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "iso": "MX",
+    "population": 127600000,
+    "gdp": 1290,
+    "area": 1964375,
+    "capital": "Mexico City",
+    "region": "North America"
+  },
+  {
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "iso": "ID",
+    "population": 273800000,
+    "gdp": 1190,
+    "area": 1904569,
+    "capital": "Jakarta",
+    "region": "Asia"
+  },
+  {
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "iso": "NL",
+    "population": 17530000,
+    "gdp": 1010,
+    "area": 41850,
+    "capital": "Amsterdam",
+    "region": "Europe"
+  },
+  {
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "iso": "SA",
+    "population": 35950000,
+    "gdp": 1010,
+    "area": 2149690,
+    "capital": "Riyadh",
+    "region": "Asia"
+  },
+  {
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "iso": "TR",
+    "population": 84780000,
+    "gdp": 906,
+    "area": 783562,
+    "capital": "Ankara",
+    "region": "Europe/Asia"
+  },
+  {
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "iso": "CH",
+    "population": 8670000,
+    "gdp": 813,
+    "area": 41285,
+    "capital": "Bern",
+    "region": "Europe"
+  },
+  {
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "iso": "AR",
+    "population": 45810000,
+    "gdp": 487,
+    "area": 2780400,
+    "capital": "Buenos Aires",
+    "region": "South America"
+  },
+  {
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "iso": "SE",
+    "population": 10350000,
+    "gdp": 593,
+    "area": 450295,
+    "capital": "Stockholm",
+    "region": "Europe"
+  },
+  {
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "iso": "NO",
+    "population": 5450000,
+    "gdp": 579,
+    "area": 323802,
+    "capital": "Oslo",
+    "region": "Europe"
+  },
+  {
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "iso": "EG",
+    "population": 104300000,
+    "gdp": 469,
+    "area": 1002450,
+    "capital": "Cairo",
+    "region": "Africa"
+  },
+  {
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "iso": "ZA",
+    "population": 59890000,
+    "gdp": 405,
+    "area": 1221037,
+    "capital": "Pretoria",
+    "region": "Africa"
+  },
+  {
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "iso": "NG",
+    "population": 213400000,
+    "gdp": 477,
+    "area": 923768,
+    "capital": "Abuja",
+    "region": "Africa"
+  },
+  {
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "iso": "SG",
+    "population": 5450000,
+    "gdp": 397,
+    "area": 728,
+    "capital": "Singapore",
+    "region": "Asia"
+  },
+  {
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "iso": "NZ",
+    "population": 5120000,
+    "gdp": 249,
+    "area": 268838,
+    "capital": "Wellington",
+    "region": "Oceania"
+  },
+  {
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "iso": "GR",
+    "population": 10640000,
+    "gdp": 219,
+    "area": 131957,
+    "capital": "Athens",
+    "region": "Europe"
+  },
+  {
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "iso": "PT",
+    "population": 10310000,
+    "gdp": 251,
+    "area": 92212,
+    "capital": "Lisbon",
+    "region": "Europe"
+  }
+]

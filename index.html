@@ -5,9 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slap The World Around</title>
     <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/cards.css">
 </head>
 <body>
-    <h1>Slap The World Around</h1>
+    <!-- Header Bar -->
+    <header class="game-header">
+        <div class="header-left">
+            <select id="country-dropdown" class="country-dropdown">
+                <option value="">🌍 Select Country</option>
+            </select>
+        </div>
+        <h1 class="game-title">Slap The World Around</h1>
+        <div class="header-right">
+            <span id="player-name" class="player-name">👤 Loading...</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="game-main">
+        <!-- World Map Container -->
+        <div id="map-container" class="map-container">
+            <div class="map-placeholder">
+                🗺️ World Map
+                <p>Click a country to view cards</p>
+            </div>
+        </div>
+
+        <!-- Card Drawer (slides in from right) -->
+        <aside id="card-drawer" class="card-drawer">
+            <div class="drawer-header">
+                <h2 id="drawer-title" class="drawer-title">🇺🇸 United States</h2>
+                <button id="drawer-close" class="drawer-close">✕</button>
+            </div>
+            <div class="drawer-controls">
+                <input 
+                    type="search" 
+                    id="card-search" 
+                    class="card-search" 
+                    placeholder="🔍 Search cards..."
+                />
+                <select id="card-sort" class="card-sort">
+                    <option value="name">Sort by Name</option>
+                    <option value="slaps">Sort by Slaps</option>
+                    <option value="recent">Most Recent</option>
+                </select>
+            </div>
+            <div id="cards-container" class="cards-grid"></div>
+        </aside>
+    </main>
+
+    <!-- Card Template (MTG-style) -->
+    <template id="card-template">
+        <article class="slap-card">
+            <div class="card-image-container">
+                <img class="card-image" src="" alt="" />
+            </div>
+            <div class="card-name-bar">
+                <span class="card-flag"></span>
+                <h2 class="card-title"></h2>
+            </div>
+            <div class="card-content">
+                <p class="card-description"></p>
+            </div>
+            <div class="card-properties">
+                <span class="card-category"></span>
+                <span class="card-country"></span>
+            </div>
+            <div class="card-actions">
+                <button class="slap-btn">👋 SLAP!</button>
+                <span class="slap-count">🔥 0 slaps</span>
+            </div>
+        </article>
+    </template>
+
     <script type="module" src="src/main.js"></script>
 </body>
 </html>

@@ -1,10 +1,10 @@
 # Slap The World Around
 
-A geography-based card comparison game where players compare country statistics.
+A geography-based card slapping game where players slap country cards.
 
 ## Description
 
-Slap The World Around is an interactive browser-based game that lets you compare different countries based on statistics like population, GDP, and area. Learn geography while having fun!
+A mobile-first browser game where players selects slapable cards from an interactive world map, view slapable cards statistics as collectible cards, and "slaps" cards with more or less intensity. Players don't compete, only cards compete on the number of slaps received.
 
 ## How to Run
 

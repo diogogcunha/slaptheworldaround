@@ -1,0 +1,233 @@
+/**
+ * Card Styles - MTG-style slapable cards
+ * 
+ * Design: Magic: The Gathering inspired
+ * - Top image
+ * - Name bar below image
+ * - Description
+ * - Properties list
+ * - Slap button with count
+ */
+
+/* Card Container */
+.slap-card {
+    background: linear-gradient(145deg, #2d3a5a 0%, #1a1a2e 100%);
+    border-radius: 12px;
+    border: 2px solid #4a5a8a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
+}
+
+.slap-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+    border-color: #667eea;
+}
+
+/* Card Image */
+.card-image-container {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background: #16213e;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.slap-card:hover .card-image {
+    transform: scale(1.05);
+}
+
+/* Card Name Bar */
+.card-name-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card-flag {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.card-title {
+    flex: 1;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Card Content */
+.card-content {
+    padding: 10px 12px;
+    flex: 1;
+}
+
+.card-description {
+    font-size: 0.7rem;
+    color: #a0aec0;
+    line-height: 1.4;
+    margin: 0;
+    /* Limit to 3 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Card Properties */
+.card-properties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 12px 10px;
+}
+
+.card-category {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #f093fb;
+    background: rgba(240, 147, 251, 0.15);
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+.card-country {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #667eea;
+    background: rgba(102, 126, 234, 0.15);
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+/* Card Actions */
+.card-actions {
+    padding: 10px 12px;
+    border-top: 1px solid #3d4a6a;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.slap-btn {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.slap-btn:hover {
+    box-shadow: 0 4px 16px rgba(245, 87, 108, 0.4);
+}
+
+/* Slap button press states */
+.slap-btn:active,
+.slap-btn.pressing {
+    transform: scale(0.95) translateY(2px);
+    box-shadow: 0 2px 8px rgba(245, 87, 108, 0.3);
+}
+
+.slap-btn.slapping {
+    animation: slapRelease 0.15s ease-out;
+}
+
+@keyframes slapRelease {
+    0% {
+        transform: scale(0.95) translateY(2px);
+    }
+    50% {
+        transform: scale(1.08) translateY(-4px);
+    }
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Slap Count */
+.slap-count {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #f5576c;
+    font-weight: 600;
+}
+
+/* Card slap reaction */
+.slap-card.slapped {
+    animation: cardReaction 0.3s ease-out;
+}
+
+@keyframes cardReaction {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-3px) rotate(-1deg);
+    }
+    75% {
+        transform: translateY(-2px) rotate(1deg);
+    }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .card-image-container {
+        height: 80px;
+    }
+
+    .card-name-bar {
+        padding: 8px 10px;
+    }
+
+    .card-flag {
+        font-size: 1rem;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .card-content {
+        padding: 8px 10px;
+    }
+
+    .card-description {
+        font-size: 0.65rem;
+        -webkit-line-clamp: 2;
+    }
+
+    .slap-btn {
+        padding: 10px 12px;
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "us-001",
+    "country": {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "iso": "US"
+    },
+    "title": "Elon Musk",
+    "description": "Tech billionaire, CEO of Tesla & SpaceX, owner of X (Twitter), and influential figure in AI and space exploration.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg",
+    "category": "person"
+  },
+  {
+    "id": "us-002",
+    "country": {
+      "name": "United States",
+      "flag": "🇺🇸",
+      "iso": "US"
+    },
+    "title": "Taylor Swift",
+    "description": "Global pop superstar, record-breaking artist, and cultural phenomenon with the highest-grossing concert tour in history.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/191125_Taylor_Swift_at_the_2019_American_Music_Awards_%28cropped%29.png",
+    "category": "person"
+  },
+  {
+    "id": "fr-001",
+    "country": {
+      "name": "France",
+      "flag": "🇫🇷",
+      "iso": "FR"
+    },
+    "title": "Paris 2024 Olympics Legacy",
+    "description": "The afterglow of the 2024 Paris Olympics continues to boost tourism and national pride across France.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2024_Summer_Olympics_logo.svg",
+    "category": "event"
+  },
+  {
+    "id": "fr-002",
+    "country": {
+      "name": "France",
+      "flag": "🇫🇷",
+      "iso": "FR"
+    },
+    "title": "Kylian Mbappé",
+    "description": "French football prodigy, World Cup winner, and one of the fastest and most talented players in the world.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg",
+    "category": "person"
+  },
+  {
+    "id": "es-001",
+    "country": {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "iso": "ES"
+    },
+    "title": "La Sagrada Familia",
+    "description": "Gaudí's iconic Barcelona basilica, a UNESCO World Heritage Site finally nearing completion after 140+ years.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sagrada_Familia_8-12-21_%281%29.jpg",
+    "category": "landmark"
+  },
+  {
+    "id": "es-002",
+    "country": {
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "iso": "ES"
+    },
+    "title": "Real Madrid CF",
+    "description": "The most decorated football club in history with record Champions League titles and global fanbase.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    "category": "organization"
+  },
+  {
+    "id": "br-001",
+    "country": {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "iso": "BR"
+    },
+    "title": "Neymar Jr",
+    "description": "Brazilian football superstar, Olympic gold medalist, and one of the most marketable athletes in the world.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bra-Cos_%281%29_%28cropped%29.jpg",
+    "category": "person"
+  },
+  {
+    "id": "br-002",
+    "country": {
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "iso": "BR"
+    },
+    "title": "Christ the Redeemer",
+    "description": "The iconic 30-meter Art Deco statue of Jesus Christ overlooking Rio de Janeiro, one of the New Seven Wonders.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Christ_on_Corcovado_mountain.JPG",
+    "category": "landmark"
+  },
+  {
+    "id": "pt-001",
+    "country": {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "iso": "PT"
+    },
+    "title": "Cristiano Ronaldo",
+    "description": "Portuguese football legend, global icon, and all-time top international goal scorer with 5 Ballon d'Or wins.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg",
+    "category": "person"
+  },
+  {
+    "id": "pt-002",
+    "country": {
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "iso": "PT"
+    },
+    "title": "Pastéis de Belém",
+    "description": "The legendary Portuguese egg custard tarts from Lisbon, a centuries-old secret recipe and national treasure.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pastéis_de_Belém_-_Pair.jpg",
+    "category": "food"
+  }
+]
