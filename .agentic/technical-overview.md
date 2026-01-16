@@ -101,7 +101,6 @@
 
 ### AI Assistance
 - **GitHub Copilot**: Inline code suggestions
-- **ChatGPT/Claude**: Complex logic and debugging
 - **Prompt-driven development**: Detailed requests with examples
 
 ### Testing
@@ -149,22 +148,6 @@
 - **Client-side only**: All data is public
 - **No user data**: No PII collection
 - **XSS Prevention**: Basic input sanitization (even for local data)
-
-## Future Technical Considerations
-
-### Phase 2 (Post-MVP)
-- **Backend API**: Node.js/Express or Serverless (Supabase/Firebase)
-- **Database**: PostgreSQL or Firestore for rankings
-- **Real-time**: WebSockets for live leaderboards
-- **Authentication**: Anonymous fingerprinting or optional accounts
-- **Rate Limiting**: Anti-spam protection
-
-### Phase 3 (Advanced)
-- **PWA**: Service Workers for offline play
-- **Build Tools**: Vite/Webpack for optimization
-- **Framework**: Consider React/Svelte for complex state
-- **Testing**: Jest/Vitest for automated tests
-- **CI/CD**: GitHub Actions for deployment
 
 ## Why This Stack Works for 2-Day MVP
 
